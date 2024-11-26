@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>COVID-19 Patient List by State</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>COVID-19 Patient List by State in India</h1>
+                <p>Details of Confirmed cases, Discharged, Deaths, and Total Confirmed Cases According To States</p>
+            </header>
+
+            <div class="sidebar">
+                <h1 style="margin-bottom: 35px;text-align: center;">State List</h1>
+                <p style="color: white;font-size: 20px;margin-bottom: 15px;line-height: 25px;">Click On State Button To See More Details</p>
+                <div id="btn-group" style="text-align: center;">
+
+                </div>
+            </div>
+
+            <table class="covid-table">
+                <thead>
+                    <tr>
+                        <th>State Name</th>
+                        <th>ConfirmedCasesIndian</th>
+                        <th>ConfirmedCasesForeign</th>
+                        <th>Discharged</th>
+                        <th>Deaths</th>
+                        <th>TotalConfirmed</th>
+                    </tr>
+                </thead>
+                <tbody id="show-data">
+                    
+                </tbody>
+            </table>
+
+        </div>
+
+        <script src="./js/script.js"></script>
+    </body>
+</html>
